@@ -1,3 +1,4 @@
 # python_matplotlib_clipboard
 
-A plot is created using matplotlib and copied to a clipboard of either Windows or MacOS.
+This code is aimed to create a plot using matplotlib and Tkinter interface.
+The plot can also be copied to the clipboard (either Windows or MacOS).
