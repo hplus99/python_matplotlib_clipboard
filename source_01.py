@@ -76,7 +76,6 @@ class TkPlot2D():
             self.data_bytes = io.BytesIO()
             self.img_plot.convert('RGB').save(self.data_bytes, format='BMP')
             self.data_clipboard = self.data_bytes.getvalue()[14:]
-            # self.data_bytes.close()
 
             win32clipboard.OpenClipboard()
             win32clipboard.EmptyClipboard()
